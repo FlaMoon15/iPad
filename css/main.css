@@ -1507,7 +1507,7 @@ main {
   .wireless .facetime figcaption {
     transform: scale(.8) translate(670px, -60px);
   }
-  .wireless .files .figure img {
+  .wireless .files figure img {
     width: 676px;
   }
   .wireless .files figcaption {
@@ -1523,12 +1523,15 @@ main {
     width: 312px;
     height: 223px;
     background-image: url("../images/wireless_headline_mobile.png");
-    transform: none;
     margin: 0 auto;
+    transform: none;
   }
   .wireless .facetime .figures {
     height: auto;
     margin-top: 64px;
+  }
+  .wireless .facetime figure img {
+    width: 490px;
   }
   .wireless .facetime figcaption {
     transform: scale(.8) translate(120px, -45px);
